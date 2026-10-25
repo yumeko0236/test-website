@@ -6,7 +6,27 @@
         <h1> I dont like boys </h1>
     <img src="elster.jpg" alt=" some lesbian I like " width=" 250 ">
     <br><br>
-    
+    <button id="something cool button name">Dont click this</button>
+    <p id="sample text"> waiting for a click...</p>
+    <button id="cool looking button" >press this for goodluck</button>
+    <p id="a lot cooler looking button"> a really cool looking button </p>
+    <script>
+        let btn = document.getElementById("something cool button name");
+        let txt = document.getElementById("sample text");
+
+     btn.addEventListener("click", function(){
+        window.location.href = "https://www.roblox.com/home";
+
+        let btn2 = document.getElementById("cool looking button");
+        let txt2 = document.getElementById("a lot cooler looking button");
+
+        btn2.addEventListener("click", function(){
+            txt2.innerText = " I lied you now have bad luck!! haha!";
+            txt2.style.color = "pink";
+        });
+       
+     });
+     </script>
     </body>
    
     
